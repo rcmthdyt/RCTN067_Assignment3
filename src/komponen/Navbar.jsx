@@ -5,12 +5,12 @@ class Navbar extends Component {
         return (
             <nav>
             <ul>
-                <li class='about'><a href='#about'>About</a></li>
-                <li class='experience'><a href='#experience'>Experience</a></li>
-                <li class='education'><a href='#education'>Education</a></li>
-                <li class='skills'><a href='#skills'>Skills</a></li>
-                <li class='interests'><a href='#interests'>Interests</a></li>
-                <li class='awards'><a href='#awards'>Awards</a></li>
+                <li button class="btn"><a href='#about'>About</a></li>
+                <li button class="btn"><a href='#experience'>Experience</a></li>
+                <li button class="btn"><a href='#education'>Education</a></li>
+                <li button class="btn"><a href='#skills'>Skills</a></li>
+                <li button class="btn"><a href='#interests'>Interests</a></li>
+                <li button class="btn"><a href='#awards'>Awards</a></li>
             </ul>
             </nav>
             )
